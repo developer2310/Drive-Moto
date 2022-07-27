@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive Moto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/splide-core.min.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <!-- splide -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="menu">
+                    <i class='bx bx-menu-alt-left'></i>
+                </div>
+                <div class="nav__left shown">
+                    <h4>Магазины</h4>
+                    <h4>Акции</h4>
+                    <h4>Доставка и оплата</h4>
+                </div>
+                <div class="nav__icon">
+                    <img src="images/лого.svg" alt="logo">
+                </div>
+                <div class="nav__right">
+                    <div class="nav__location">
+                        <i class='bx bx-location-plus'></i>
+                        <h4>Москва, ул. Науки 25</h4>
+                    </div>
+                    <div class="nav__user">
+                        <i class='bx bx-heart'></i>
+                        <i class='bx bxs-user'></i>
+                        <i class='bx bx-cart'></i>
+                        <span class="blue">1</span>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="nav__footer baza">
+                <h4>Квадроциклы</h4>
+                <h4>Катера</h4>
+                <h4>Гидроциклы</h4>
+                <h4>Лодки</h4>
+                <h4>Вездеходы</h4>
+                <h4>Снегоходы</h4>
+                <h4>Двигатели</h4>
+                <h4>Запчасти</h4>
+            </div>
+        </div>
+    </header>
+    <section class="slide">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-9">
+                    <div class="splide">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="images/pic1.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/pic1.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/pic1.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/pic1.jpg" alt="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/pic1.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-3">
+                    <div class="card_aksiya">
+                        <div class="card__header">
+                            <h5 class="blue">Акция</h5>
+                            <h3>190 000 <i class='bx bx-ruble'></i></h3>
+                        </div>
+                        <div class="card__body">
+                            <del>225 000 <i class='bx bx-ruble'></i></del>
+                            <img src="images/pic2.png" alt="pic2">
+                            <h4>Лодочный мотор<br>
+                                Suzuki DF9.9BRS</h4>
+                        </div>
+                        <div class="card__footer baza">
+                            <h5>Акция действует до</h5>
+                            <h5>31.08.2020</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="search">
+        <div class="container">
+            <div class="search__header">
+                <h5 onclick="myFunction()" id="myDIV">Поиск по номеру</h5>
+                <h5 onclick="myFunctionnn()" id="mydiv">Поиск по марке</h5>
+                <h5 onclick="myFunctionn()" id="myDiv">Поиск по названию товара</h5>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-10">
+                    <input type="text" placeholder="Введите марку">
+                </div>
+                <div class="col-sm-12 col-2">
+                    <input type="button" value="искать">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="moto__kategoriya">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-4">
+                    <div class="card">
+                        <h1>Квадроциклы</h1>
+                        <img src="images/pic3.png" alt="">
+                    </div>
+                    <span>Подробее <i class='bx bx-right-arrow-alt'></i></span>
+                </div>
+                <div class="col-sm-12 col-4">
+                    <div class="card">
+                        <h1>Гидроциклы</h1>
+                        <img src="images/pic4.png" alt="">
+                    </div>
+                    <span>Подробее <i class='bx bx-right-arrow-alt'></i></span>
+                </div>
+                <div class="col-sm-12 col-4">
+                    <div class="card">
+                        <h1>Катера</h1>
+                        <img src="images/pic5.png" alt="">
+                    </div>
+                    <span>Подробее <i class='bx bx-right-arrow-alt'></i></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-4">
+                    <div class="card">
+                        <h1>Снегоходы</h1>
+                        <img src="images/pic6.png" alt="">
+                    </div>
+                    <span>Подробее <i class='bx bx-right-arrow-alt'></i></span>
+                </div>
+                <div class="col-sm-12 col-4">
+                    <div class="card">
+                        <h1>Вездеходы</h1>
+                        <img src="images/pic7.png" alt="">
+                    </div>
+                    <span>Подробее <i class='bx bx-right-arrow-alt'></i></span>
+                </div>
+                <div class="col-sm-12 col-4">
+                    <div class="card">
+                        <h1>Двигатели</h1>
+                        <img src="images/pic8.png" alt="">
+                    </div>
+                    <span>Подробее <i class='bx bx-right-arrow-alt'></i></span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="tovar mr-80">
+        <div class="container">
+            <div class="tovar__header">
+                <h3>Популярные товары</h3>
+                <div class="aksessuar">
+                    <h6>запчасти</h6>
+                    <h6>моторы</h6>
+                    <h6>шины </h6>
+                    <h6>электроника</h6>
+                    <h6>инструменты</h6>
+                    <h6>аксессуары </h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-3">
+                    <div class="card__tovar">
+                        <img src="images/pic9.jpg" alt="pic9">
+                        <p>Водонепроницаемый<br>
+                            Рюкзак</p>
+                        <h1>9 800 ₽</h1>
+                        <div class="card__icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-cart'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-3">
+                    <div class="card__tovar">
+                        <img src="images/pic10.png" alt="pic9">
+                        <p>Спасательный жилет BRP Men's<br> Airflow PFD</p>
+                        <h1>6 900 ₽</h1>
+                        <div class="card__icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-cart'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-3">
+                    <div class="card__tovar">
+                        <img src="images/pic11.png" alt="pic9">
+                        <p>Водонепроницаемый<br>
+                            Рюкзак</p>
+                        <h1>9 800 ₽</h1>
+                        <div class="card__icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-cart'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-3">
+                    <div class="card__tovar">
+                        <img src="images/pic12.png" alt="pic9">
+                        <p>BRP Audio-Premium<br> System</p>
+                        <h1>68 000 ₽</h1>
+                        <div class="card__icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-cart'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view__btn">
+                <a href="#" class="baza">Показать еще</a>
+            </div>
+
+            <div class="skidka__back blue">
+                <!-- <div class="container"> -->
+                <div class="img">
+                    <img src="images/pic3.png" alt="">
+                    <img src="images/pic13.png" alt="">
+                </div>
+                <h3>CКИДКИ<br>
+                    на все запчасти <br>
+                    до 70%</h3>
+                <a href="#">ПОСМОТЕТЬ ВСЕ</a>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+
+    <section class="tovar">
+        <div class="container">
+            <div class="tovar__header mt">
+                <h3>С этим товаром покупают</h3>
+                <div class="aksessuar">
+                    <h6>запчасти</h6>
+                    <h6>моторы</h6>
+                    <h6>шины </h6>
+                    <h6>электроника</h6>
+                    <h6>инструменты</h6>
+                    <h6>аксессуары </h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-3">
+                    <div class="card__tovar">
+                        <img src="images/pic14.png" alt="pic9">
+                        <p>Водонепроницаемый<br>
+                            Рюкзак</p>
+                        <h1>9 800 ₽</h1>
+                        <div class="card__icon mt">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-cart'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-3">
+                    <div class="card__tovar">
+                        <img src="images/pic15.png" alt="pic9">
+                        <p>Спасательный жилет BRP Men's<br> Airflow PFD</p>
+                        <h1>6 900 ₽</h1>
+                        <div class="card__icon mt">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-cart'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-3">
+                    <div class="card__tovar">
+                        <img src="images/pic16.png" alt="pic9">
+                        <p>Водонепроницаемый<br>
+                            Рюкзак</p>
+                        <h1>9 800 ₽</h1>
+                        <div class="card__icon mtt">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-cart'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-3">
+                    <div class="card__tovar">
+                        <img src="images/pic17.png" alt="pic9">
+                        <p>BRP Audio-Premium<br> System</p>
+                        <h1>68 000 ₽</h1>
+                        <div class="card__icon">
+                            <i class='bx bx-heart'></i>
+                            <i class='bx bx-cart'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view__btn">
+                <a href="#" class="baza">Показать еще</a>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+    <div class="footer baza">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-4">
+                    <h5>Подпишитесь на нашу рассылку<br>
+                        и узнавайте о акция быстрее</h5>
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="email">
+                                <input type="email" placeholder="Введите ваш e-mail:">
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <input type="button" value="Отправить" class="blue">
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-4">
+                    <div class="row">
+                        <div class="col-sm-6 col-6">
+                            <h3>Информация </h3>
+                            <ul>
+                                <li>О компании</li>
+                                <li>Контакты</li>
+                                <li>Акции</li>
+                                <li>Магазины</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-6">
+                            <h3>Интернет-магазин</h3>
+                            <ul>
+                                <li>Доставка и самовывоз</li>
+                                <li>Оплата</li>
+                                <li>Возврат-обмен</li>
+                                <li>Новости</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="media__social">
+                        <i class='bx bxl-instagram'></i>
+                        <i class='bx bxl-vk'></i>
+                        <i class='bx bxl-facebook-circle'></i>
+                        <i class='bx bxl-youtube'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="splide.js"></script>
+    <script>
+        var splide = new Splide('.splide');
+        splide.mount();
+
+        let hiddenList = document.querySelector('.navbar');
+        let button = document.querySelector('.menu');
+        hiddenList.style.top = '-750px';
+
+        button.addEventListener('click', function () {
+            hiddenList.classList.toggle('shown')
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function myFunction() {
+            let element = document.getElementById("myDIV");
+            element.classList.toggle("mystyle");
+        }
+
+        function myFunctionn() {
+            let lee = document.getElementById("myDiv");
+            lee.classList.toggle("mystyle");
+        }
+
+        function myFunctionnn() {
+            let leee = document.getElementById("mydiv");
+            leee.classList.toggle("mystyle");
+        }
+    </script>
+</body>
+
+</html>
