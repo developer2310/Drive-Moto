@@ -129,17 +129,24 @@ body {
 }
 
 .slide {
-    padding-top: 60px;
+    /* margin-left: 15px; */
+    /* padding-left: 15px; */
+    padding-top: 30px;
+}
+.slide img {
+    width: 100%;
 }
 
 .card_aksiya {
     width: 100%;
     height: 100%;
     border: 1px solid;
+
 }
 
 .card__header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -160,6 +167,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 25px;
 }
 
 .card__body del {
@@ -168,15 +176,16 @@ body {
 }
 
 .card__body img {
-    margin-left: 61px;
-    margin-right: 79px;
     width: 50%;
-    padding-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
 }
 
 .card__footer {
-    padding-top: 26px;
-    padding-bottom: 25px;
+    margin-top: 16px;
+    padding-top: 0px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
